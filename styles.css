@@ -1,0 +1,40 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+#cardGame {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cardRow {
+    display: flex;
+    gap: 10px;
+}
+
+#cardRow > div {
+    border: 1px solid black;
+    background-color: rgb(194, 58, 58);
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardText {
+    font-size: 0px;
+}
+
+#winnerText {
+    font-size: 32px;
+}
